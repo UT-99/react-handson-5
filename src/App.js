@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './newStyles.css'
+import HigherOrderComponent from './components/HigherOrderComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className='align'> Pure Component and Higher Order Component </h1>
+      <div className='align'>
+       This is pure component demo .
+        <HigherOrderComponent />
+      </div>
+
+     
+      <div  className='align'>
+        
+        This is higher order component demo. 
+      </div>
+    </>
   );
 }
 

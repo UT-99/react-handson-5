@@ -1,0 +1,17 @@
+.align{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background: skyblue;
+}
+
+.button:hover{
+    background-color: brown;
+    color: azure;
+}

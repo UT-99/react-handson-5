@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  min-height: 100vh;
+  background: linear-gradient(to left top , pink , yellow , rgb(106, 172, 106) , skyblue);
+}
